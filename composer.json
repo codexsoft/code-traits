@@ -1,0 +1,35 @@
+{
+    "name": "codexsoft/code-traits",
+    "license": "MIT",
+    "description": "Traits helper library",
+    "authors": [
+        {
+            "name": "Dmitriy V Kozubskiy",
+            "email": "kozubsky@inbox.ru",
+            "homepage": "http://codexsoft.ru/",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/codexsoft/code-traits/issues",
+        "source": "https://github.com/codexsoft/code-traits"
+    },
+    "require": {
+        "php": "^7.2.0",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6",
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodexSoft\\Code\\Traits\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": ["vendor/", "tests/unit/"]
+        }
+    }
+}
